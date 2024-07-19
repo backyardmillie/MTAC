@@ -107,8 +107,19 @@ p {
 .nesting{
   position: relative;
   float: right;
-  width: 0%;
+  width: 50%;
   height: 100%;
-  background-image: linear-gradient(rgba(227, 237, 247,0),rgba(227, 237, 247,1));
-  transition: width 2s;
+  background-image: linear-gradient(#15161b00,#15161b);
+  transition: opacity 2s ease-in-out ;
+  opacity: 0;
+}
+
+.homebuttons{
+  display: inline-block;
+  width: 400px;
+  height: auto;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  background: none;
 }
