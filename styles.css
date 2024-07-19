@@ -78,7 +78,7 @@ p {
   top: 0;
   width: 100%;
   height: 56px;
-  background-color: #E3EDF7;
+  background-color: #e3edf7;
   position: sticky;
   position: -webkit-sticky;
   overflow: hidden;
@@ -102,4 +102,13 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.nesting{
+  position: relative;
+  float: right;
+  width: 0%;
+  height: 100%;
+  background-image: linear-gradient(rgba(227, 237, 247,0),rgba(227, 237, 247,1));
+  transition: width 2s;
 }
