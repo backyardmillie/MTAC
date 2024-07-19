@@ -104,18 +104,8 @@ p {
   justify-content: center;
 }
 
-.nesting{
-  position: relative;
-  float: right;
-  width: 50%;
-  height: 100%;
-  background-image: linear-gradient(#15161b00,#15161b);
-  transition: opacity 2s ease-in-out ;
-  opacity: 0;
-}
-
 .homebuttons{
-  display: inline-block;
+  display: none;
   width: 400px;
   height: auto;
   position: relative;
