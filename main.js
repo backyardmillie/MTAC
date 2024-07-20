@@ -35,3 +35,7 @@ function update(t) {
 }
 
 Time();
+
+function goToHome() {
+    window.location.href = "index.htm"
+}

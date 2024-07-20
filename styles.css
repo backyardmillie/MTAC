@@ -54,6 +54,14 @@ p {
   padding-left: 50px;
   padding-right: 50px;
 }
+a{
+  color: #E3EDF7;
+  font-family: 'JetBrains Mono';
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 .homebutton{
   width: 275px;
@@ -82,6 +90,7 @@ p {
   position: sticky;
   position: -webkit-sticky;
   overflow: hidden;
+  z-index: 50;
 }
 
 .topbarbutton{
@@ -103,6 +112,12 @@ p {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.containeralt{
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
 
