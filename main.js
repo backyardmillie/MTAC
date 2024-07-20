@@ -36,6 +36,6 @@ function update(t) {
 
 Time();
 
-function goToHome() {
-    window.location.href = "index.htm"
+function goToPage(page) {
+    window.location.href = page
 }
